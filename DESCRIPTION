@@ -1,0 +1,13 @@
+Package: pintamapas
+Title: Pintar mapas
+Version: 0.0.0.9000
+Authors@R: person("Maria", "Pineiro", email = "maria.pineiro@usc.es", role = c("aut", "cre"))
+Description: Sirve para pintar mapas de mortalidad
+Depends: R (>= 3.4.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: RColorBrewer,
+    sp
+RoxygenNote: 6.0.1
+Suggests: testthat
